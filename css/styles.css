@@ -1,0 +1,43 @@
+.navbar_container {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.customing_navbar{
+    width: fit-content;
+    height: 50px;
+}
+
+.custom-heading {
+    color: #54ff71;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+
+.move_right {
+    margin-left: 20px ;
+}
+
+.move_left {
+    margin-right: 20px;
+}
+
+.move_upside{
+    margin-top: -12px; 
+    position: relative;
+}
+
+.background {
+    color: #29282b;
+}
+
+
+body {
+    background-image: url(../assets/background2.avif);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-color: #29282b;
+}
+
