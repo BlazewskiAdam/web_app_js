@@ -1,72 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NvidiaHub</title> 
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NvidiaHub</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
-  <!-- Navbar na pełną szerokość -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">NvidiaHub</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <body>
+    <!-- Navbar na pełną szerokość -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">NvidiaHub</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <!-- Navigation Links -->
           <ul class="navbar-nav me-auto">
-              <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="GPU.html">GPU's</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link disabled" href="info.html">Additional Info</a>
-              </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="GPU.html">GPU's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="info.html">Additional Info</a>
+            </li>
           </ul>
-  
+
           <!-- Search Bar and Button -->
           <div class="navbar_container move_left">
-              <form class="d-flex my-2 my-lg-0">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
+            <form class="d-flex my-2 my-lg-0">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
           </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Reszta treści w kontenerze -->
+    <div class="container mt-4">
+      <!-- Bootstrap Title -->
+      <h1 class="display-4 custom-heading move_upside">Welcome to NvidiaHub</h1>
+    </div>
+
+    <!-- Style -->
+    <style>
+      .custom-navbar {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .custom-navbar .nav-link {
+        padding-top: 6px;
+        padding-bottom: 6px;
+      }
+
+      .navbar-brand {
+        font-size: 1.2rem;
+      }
+    </style>
+
+    <div class="SetUpCard">
+      <div class="card titles-color-card" style="width: 21rem">
+        <div class="card-body background-color-Card decorate-card">
+          <h5 class="card-title titles-color-card">
+            Check out the newest RTX 5090!
+          </h5>
+          <p class="card-text">
+            Unleash the future of gaming with the RTX 5090 – unparalleled power,
+            stunning visuals, and next-gen performance.
+          </p>
+          <button type="button" class="btn btn-success">Explore</button>
+        </div>
       </div>
     </div>
-  </nav>
-  
-  <!-- Reszta treści w kontenerze -->
-  <div class="container mt-4">
-    <!-- Bootstrap Title -->
-    <h1 class="display-4 custom-heading move_upside">Welcome to NvidiaHub</h1>
-  </div>
-  
-  <!-- Style -->
-  <style>
-    .custom-navbar {
-      padding-top: 6px;
-      padding-bottom: 6px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* opcjonalnie: delikatny cień */
-    }
-  
-    .custom-navbar .nav-link {
-      padding-top: 6px;
-      padding-bottom: 6px;
-    }
-  
-    .navbar-brand {
-      font-size: 1.2rem;
-    }
-  </style>
-  
-
-</body>
+  </body>
 </html>

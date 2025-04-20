@@ -1,43 +1,60 @@
 .navbar_container {
-    display: flex;
-    justify-content: flex-end;
-
+  display: flex;
+  justify-content: flex-end;
 }
 
-.customing_navbar{
-    width: fit-content;
-    height: 50px;
+.customing_navbar {
+  width: fit-content;
+  height: 50px;
 }
 
 .custom-heading {
-    color: #54ff71;
-    font-weight: 1000;
-    margin-bottom: 10px;
+  color: #54ff71;
+  font-weight: 1000;
+  margin-bottom: 10px;
 }
 
 .move_right {
-    margin-left: 20px ;
+  margin-left: 20px;
 }
 
 .move_left {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
-.move_upside{
-    margin-top: -12px; 
-    position: relative;
+.move_upside {
+  margin-top: -12px;
+  position: relative;
 }
 
 .background {
-    color: #29282b;
+  color: #29282b;
 }
-
 
 body {
-    background-image: url(../assets/background2.avif);
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    background-color: #29282b;
+  background-image: url(../assets/background2.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #29282b;
 }
 
+.SetUpCard {
+  display: flex;
+  margin-top: 290px;
+  justify-content: center;
+  margin-left: -550px;
+}
+
+.background-color-Card {
+  background-color: #dddaec;
+}
+
+.card {
+  color: #54ff71;
+}
+
+.decorate-card {
+  border-radius: 10px; /* Set to 0 for sharp corners, or adjust for rounded corners */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for depth */
+}
