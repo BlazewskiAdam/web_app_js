@@ -14,7 +14,10 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
+    <!-- Navbar na pełną szerokość -->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
       <div class="container">
         <a class="navbar-brand" href="index.html">NvidiaHub</a>
@@ -36,7 +39,7 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="GPU-Choose.html">GPU's</a>
+              <a class="nav-link" href="GPU.html">GPU's</a>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" href="info.html">Additional Info</a>
@@ -61,32 +64,45 @@
       </div>
     </nav>
 
-    <!-- cards for seperate gpu's-->
-    <div class = "cards-GPUS">
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="" alt="Card image cap">
-        <div class="card-body">
-            <p class="card-text">some content pozdrowki.</p>
-    </div>
+    <style>
+      body {
+        background-color: black;
+      }
+      .button1 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 145px;
+      }
+      .button1 button {
+        color: rgb(21, 194, 21);
+        background-color: black;
+        border: 2px solid rgb(21, 194, 21);
+        padding: 25px 55px;
+        font-size: 30px;
+      }
+      .heading {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+      }
+      .heading-color {
+        color: rgb(61, 236, 61);
+      }
+    </style>
 
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-            <p class="card-text">some content pozdrowki.</p>
+    <div class="button-section">
+      <h1 class="button-heading heading heading-color">
+        Choose Your GPU Series
+      </h1>
+      <div class="button1">
+        <button type="button" class="btn btn-primary btn-lg">
+          RTX 50 Series
+        </button>
+        <button type="button" class="btn btn-secondary btn-lg">
+          RTX 40 Series
+        </button>
+      </div>
     </div>
-
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-            <p class="card-text">some content pozdrowki.</p>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-            <p class="card-text">some content pozdrowki.</p>
-    </div>
-    </div>
-    
   </body>
 </html>

@@ -31,19 +31,11 @@
   color: #29282b;
 }
 
-body {
-  background-image: url(../assets/background2.avif);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: #29282b;
-}
-
 .SetUpCard {
   display: flex;
   margin-top: 290px;
   justify-content: center;
-  margin-left: -550px;
+  margin-left: 100px;
 }
 
 .background-color-Card {
@@ -57,4 +49,11 @@ body {
 .decorate-card {
   border-radius: 10px; /* Set to 0 for sharp corners, or adjust for rounded corners */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for depth */
+}
+
+.cards-GPUS {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
 }
